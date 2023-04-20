@@ -1,54 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Todo App</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
-</head>
-<body>
-  <header class="header">
-    <img src="./eisenhower-matrix.jpg"><a class="header__info" 
-      href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </header>
-  <main class="tasks">
-    <section id="tasks__new-wrapper">
-      <label for="tasks__new-item">Add Item</label>
-      <div class="tasks__new">
-        <input id="tasks__new-item" class="tasks__task" type="text"><button>Add</button>
-      </div>
-    </section>
-    <section>
-      <h3>Todo</h3>
-      <ul id="tasks__todo">
-        <li>
-          <input type="checkbox">
-          <label class="tasks__task">Pay Bills</label>
-          <input type="text" class="tasks__task">
-          <button class="tasks__button-edit">Edit</button>
-          <button class="tasks__button-delete"><img src="./remove.svg"></button>
-        </li>
-        <li class="tasks__edit-mode">
-          <input type="checkbox">
-          <label class="tasks__task">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="tasks__task">
-          <button class="tasks__button-edit">Save</button>
-          <button class="tasks__button-delete"><img src="./remove.svg"></button>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <h3>Completed</h3>
-      <ul id="tasks__completed">
-        <li>
-          <input type="checkbox" checked>
-          <label class="tasks__task">See the Doctor</label>
-          <input type="text" class="tasks__task">
-          <button class="tasks__button-edit">Edit</button>
-          <button class="tasks__button-delete"><img src="./remove.svg"></button>
-        </li>
-      </ul>
-    </section>
-  </main>
-  <script src="app.js"></script>
-</body>
+  <head>
+    <title>Todo App</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+  </head>
+  <body>
+    <header class="header">
+      <img src="./eisenhower-matrix.jpg"><a class="header__info" 
+        href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    </header>
+    <main class="tasks">
+      <section id="tasks__new-wrapper">
+        <label for="tasks__new-item">Add Item</label>
+        <div class="tasks__new">
+          <input id="tasks__new-item" class="tasks__task" type="text"><button>Add</button>
+        </div>
+      </section>
+      <section>
+        <h3>Todo</h3>
+        <ul id="tasks__todo">
+          <li>
+            <input type="checkbox">
+            <label class="tasks__task">Pay Bills</label>
+            <input type="text" class="tasks__task">
+            <button class="tasks__button-edit">Edit</button>
+            <button class="tasks__button-delete"><img src="./remove.svg"></button>
+          </li>
+          <li class="tasks__edit-mode">
+            <input type="checkbox">
+            <label class="tasks__task">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="tasks__task">
+            <button class="tasks__button-edit">Save</button>
+            <button class="tasks__button-delete"><img src="./remove.svg"></button>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>Completed</h3>
+        <ul id="tasks__completed">
+          <li>
+            <input type="checkbox" checked>
+            <label class="tasks__task">See the Doctor</label>
+            <input type="text" class="tasks__task">
+            <button class="tasks__button-edit">Edit</button>
+            <button class="tasks__button-delete"><img src="./remove.svg"></button>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
 </html>
