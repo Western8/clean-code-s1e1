@@ -37,15 +37,15 @@
   display: flex;
 }
 .tasks__list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .tasks__item, .tasks__title {
-  list-style:none;
+  list-style: none;
 }
 .tasks__input, .tasks__check, .tasks__btn {
-  outline:none;
+  outline: none;
 }
 .tasks__btn {
   background: none;
@@ -139,14 +139,14 @@
 
 /* Edit Task */
 .tasks__list .tasks__item .tasks__input {
-  display:none
+  display: none
 }
 
 .tasks__list .tasks__item_edit .tasks__input {
-  display:inline-block;
+  display: inline-block;
   width:224px
 }
 
 .tasks__list .tasks__item_edit .tasks__task {
-  display:none;
+  display: none;
 }
